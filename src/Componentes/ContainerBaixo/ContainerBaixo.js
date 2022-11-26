@@ -28,6 +28,16 @@ function ContainerBaixo() {
                         <p className='info__value'>27</p>
                     </div>
                 </div>
+                <div className='info-4'>
+                    <div className='info'>
+                        <i></i>
+                        <a href='https://github.com/evaaldo' className='info__value'>Criciúma</a>
+                    </div>
+                    <div className='info'>
+                        <i></i>
+                        <a href='https://github.com/evaaldo' className='info__value'>https://github.com/evaaldo</a>
+                    </div>
+                </div>
             </div>
         </div>
     )

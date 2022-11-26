@@ -49,3 +49,8 @@
 .containerTopo__text::placeholder {
     color: var(--branco);
 }
+
+.info-4 {
+    display: flex;
+    gap: 1em;
+}
