@@ -1,10 +1,12 @@
 import './App.css';
-import Cabecalho from './Componentes/Cabecalho/Cabecalho';
+import ContainerCima from './Componentes/ContainerCima/ContainerCima';
 
 function App() {
   return (
     <div className="App">
-      <Cabecalho></Cabecalho>
+      <div>
+        <ContainerCima></ContainerCima>
+      </div>      
     </div>
   );
 }

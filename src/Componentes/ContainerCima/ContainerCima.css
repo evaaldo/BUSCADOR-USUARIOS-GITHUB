@@ -1,0 +1,42 @@
+body {
+    background-color: #141c2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTopo__titulo {
+    color: white;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerTopo__input {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+    background-color: #1f2a48;
+    border-radius: 15px;
+}
+
+.containerTopo__botao {
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0078ff;
+    color: white;
+    font-weight: 700;
+}
+
+.containerTopo__text {
+    background-color: transparent;
+    width: 300px;
+    border: none;
+}
+
+.containerTopo__text::placeholder {
+    color: white;
+}
