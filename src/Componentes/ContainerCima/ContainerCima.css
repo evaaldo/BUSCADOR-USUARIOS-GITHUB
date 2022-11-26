@@ -1,33 +1,25 @@
-body {
-    background-color: #141c2f;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .containerTopo__titulo {
-    color: white;
-    width: 700px;
+    color: var(--branco);
+    width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1em 0;
 }
 
 .containerTopo__toggle {
-    background-color: #141c2f;
+    background-color: var(--fundo);
     border-radius: 100px;
-    width: 30px;
-    height: 30px;
-    border: 2px solid white;
+    width: 20px;
+    height: 20px;
 }
 
 .containerTopo__input {
-    height: 50px;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     padding: .5em 1em;
-    background-color: #1f2a48;
+    background-color: var(--container);
     border-radius: 15px;
 }
 
@@ -35,17 +27,25 @@ body {
     width: 100px;
     border-radius: 15px;
     border: none;
-    background-color: #0078ff;
+    background-color: var(--botao);
     color: white;
     font-weight: 700;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s;
+}
+
+.containerTopo__botao:hover {
+    opacity: 1;
 }
 
 .containerTopo__text {
     background-color: transparent;
     width: 300px;
     border: none;
+    color: var(--branco);
 }
 
 .containerTopo__text::placeholder {
-    color: white;
+    color: var(--branco);
 }
