@@ -11,6 +11,15 @@ body {
     width: 700px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.containerTopo__toggle {
+    background-color: #141c2f;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
 }
 
 .containerTopo__input {
