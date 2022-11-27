@@ -88,11 +88,13 @@
 }
 
 .local {
+    font-size: .8em;
     display: flex;
     gap: .5em;
 }
 
 .link {
+    font-size: .8em;
     display: flex;
     gap: .5em;
 }
