@@ -1,6 +1,6 @@
 .containerTopo__titulo {
     color: var(--branco);
-    width: 600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,17 @@
     color: var(--branco);
 }
 
-.info-4 {
-    display: flex;
-    gap: 1em;
+#change-theme {
+    display: none;
+}
+
+.sol {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.lua {
+    cursor: pointer;
+    display: none;
+    font-size: 1.5em;
 }

@@ -41,6 +41,12 @@
     font-size: .8em;
 }
 
+.info-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .containerBaixo__bio {
     width: 350px;
     font-size: .8em;
@@ -67,12 +73,32 @@
 
 .info__name {
     font-weight: 200;
+    font-size: .8em;
 }
 
 .info__value {
     font-weight: 700;
     color: var(--branco);
     text-decoration: none;
+}
+
+.info-4 {
+    display: flex;
+    gap: 1em;
+}
+
+.local {
+    display: flex;
+    gap: .5em;
+}
+
+.link {
+    display: flex;
+    gap: .5em;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 

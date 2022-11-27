@@ -1,4 +1,6 @@
 import './ContainerBaixo.css'
+import { BsGeoAlt } from 'react-icons/bs'
+import { BsLink } from 'react-icons/bs'
 
 function ContainerBaixo() {
     return (
@@ -29,12 +31,12 @@ function ContainerBaixo() {
                     </div>
                 </div>
                 <div className='info-4'>
-                    <div className='info'>
-                        <i></i>
-                        <a href='https://github.com/evaaldo' className='info__value'>Criciúma</a>
+                    <div className='local'>
+                        <BsGeoAlt size={20}/>
+                        <p className='info__value'>Fortaleza</p>
                     </div>
-                    <div className='info'>
-                        <i></i>
+                    <div className='link'>
+                        <BsLink size={20}/>
                         <a href='https://github.com/evaaldo' className='info__value'>https://github.com/evaaldo</a>
                     </div>
                 </div>
