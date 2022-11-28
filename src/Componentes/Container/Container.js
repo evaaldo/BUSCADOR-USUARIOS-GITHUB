@@ -11,13 +11,13 @@ import { useState } from 'react'
 function Container() {
 
     const [search, setSearch] = useState('')
-    const [name, setName] = useState('Aguardando...')
-    const [bio, setBio] = useState('Aguardando...')
+    const [name, setName] = useState('Usuário')
+    const [bio, setBio] = useState('Aguardando')
     const [avatar_url, setAvatar_url] = useState('/images/no-profile.jpg')
-    const [followers, setFollowers] = useState('Aguardando...')
-    const [following, setFollowing] = useState('Aguardando...')
-    const [location, setLocation] = useState('Aguardando...')
-    const [blog, setBlog] = useState('Aguardando...')
+    const [followers, setFollowers] = useState('...')
+    const [following, setFollowing] = useState('...')
+    const [location, setLocation] = useState('localização')
+    const [blog, setBlog] = useState('link')
 
     const handleSearch = () => {
 
