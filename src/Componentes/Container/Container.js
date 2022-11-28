@@ -13,8 +13,7 @@ function Container() {
     const [search, setSearch] = useState('')
     const [name, setName] = useState('Aguardando...')
     const [bio, setBio] = useState('Aguardando...')
-    const [avatar_url, setAvatar_url] = useState('Aguardando...')
-    const [created, setCreated] = useState('Aguardando...')
+    const [avatar_url, setAvatar_url] = useState('/images/no-profile.jpg')
     const [followers, setFollowers] = useState('Aguardando...')
     const [following, setFollowing] = useState('Aguardando...')
     const [location, setLocation] = useState('Aguardando...')
@@ -27,7 +26,6 @@ function Container() {
                 setName(res.data.name)
                 setBio(res.data.bio)
                 setAvatar_url(res.data.avatar_url)
-                setCreated(res.data.created)
                 setFollowers(res.data.followers)
                 setFollowing(res.data.following)
                 setLocation(res.data.location)
@@ -61,7 +59,6 @@ function Container() {
                 <div className='containerBaixo__infos'>
                     <div className='info-1'>
                         <h2 className='containerBaixo__nome'>{name}</h2>
-                        <p className='containerBaixo__data'>{created}</p>
                     </div>
                     <div className='info-2'>
                         <p className='containerBaixo__bio'>{bio}</p>
