@@ -1,21 +1,12 @@
 import './ContainerCima.css'
 import './ContainerBaixo.css'
-import { createContext } from 'react';
 import { BsGeoAlt } from 'react-icons/bs'
 import { BsLink } from 'react-icons/bs'
 
 import axios from 'axios'
 import { useState } from 'react'
 
-export const ThemeContext = createContext('light')
-
 function Container() {
-
-    const [theme, setTheme] = useState('light')
-
-    const toggleTheme = () => {
-        setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
-      }
 
     const [search, setSearch] = useState('')
     const [name, setName] = useState('Usuário')
@@ -43,12 +34,10 @@ function Container() {
     }
 
     return (
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <div className='container' id={theme}>
+            <div className='container'>
                 <div className="containerTopo">
                     <div className='containerTopo__titulo'>
                         <h3>devFinder</h3>
-                        
                     </div>
                     <div className='containerTopo__input'>
                         <input className='containerTopo__text' type='text' placeholder='Procure um usuário do GitHub...' 
@@ -90,7 +79,6 @@ function Container() {
                     </div>
                 </div>
             </div>
-        </ThemeContext.Provider>
         
     )
 }

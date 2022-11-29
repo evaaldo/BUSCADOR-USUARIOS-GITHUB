@@ -28,8 +28,67 @@
   width: 800px;
 }
 
-#dark {
+#light {
   background-color: var(--fundo-light);
+}
+
+#light .container {
+  background-color: var(--fundo-light);
+}
+
+#light .containerTopo__titulo {
+  color: var(--preto);
+}
+
+#light .containerTopo__input {
+  background-color: var(--branco);
+}
+
+#light .containerTopo__text {
+  color: var(--preto)
+}
+
+#light .containerTopo__text::placeholder {
+  color: var(--preto);
+}
+
+#light .containerTopo__botao {
+  background-color: var(--fundo);
+  color: var(--branco);
+}
+
+#light .containerBaixo {
+  background-color: var(--branco);
+  color: var(--preto);
+}
+
+#light .local p {
+  color: var(--preto);
+}
+
+#light .link a {
+  color: var(--preto);
+}
+
+#light .containerBaixo__foto {
+  border: 4px solid var(--preto);
+}
+
+#light .info-3 {
+  background-color: var(--fundo-light);
+}
+
+#light .info p {
+  color: var(--preto);
+  font-weight: 700;
+}
+
+#dark .sol {
+  color: var(--branco);
+}
+
+#dark .lua {
+  color: var(--branco);
 }
 
 @media screen and (max-width: 1024px) {

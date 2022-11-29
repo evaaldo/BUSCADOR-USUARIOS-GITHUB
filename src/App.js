@@ -5,11 +5,11 @@ import Container from './Componentes/Container/Container';
 import { BsSun } from 'react-icons/bs'
 import { BsMoon } from 'react-icons/bs'
 
-export const ThemeContext = createContext('light')
+export const ThemeContext = createContext('dark')
 
 function App() {
 
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
