@@ -1,8 +1,6 @@
 import './ContainerCima.css'
 import './ContainerBaixo.css'
 import { createContext } from 'react';
-import { BsSun } from 'react-icons/bs'
-import { BsMoon } from 'react-icons/bs'
 import { BsGeoAlt } from 'react-icons/bs'
 import { BsLink } from 'react-icons/bs'
 
@@ -50,11 +48,7 @@ function Container() {
                 <div className="containerTopo">
                     <div className='containerTopo__titulo'>
                         <h3>devFinder</h3>
-                        <input type='checkbox' id='change-theme' onChange={toggleTheme} checked={theme === 'light'}></input>
-                        <label for='change-theme'>
-                            <BsSun className='sol'/>
-                            <BsMoon className='lua'/>
-                        </label>
+                        
                     </div>
                     <div className='containerTopo__input'>
                         <input className='containerTopo__text' type='text' placeholder='Procure um usuário do GitHub...' 

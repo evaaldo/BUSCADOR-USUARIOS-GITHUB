@@ -2,6 +2,9 @@ import { createContext, useState } from 'react';
 import './App.css';
 import Container from './Componentes/Container/Container';
 
+import { BsSun } from 'react-icons/bs'
+import { BsMoon } from 'react-icons/bs'
+
 export const ThemeContext = createContext('light')
 
 function App() {
@@ -15,6 +18,11 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
+        <input type='checkbox' id='change-theme' onChange={toggleTheme} checked={theme === 'light'}></input>
+        <label for='change-theme'>
+          <BsSun className='sol'/>
+          <BsMoon className='lua'/>
+        </label>
         <div>
           <Container></Container>
         </div>      
