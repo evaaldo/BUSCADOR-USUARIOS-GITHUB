@@ -6,6 +6,7 @@
   --fundo: #141c2f;
   --container: #1f2a48;
   --botao: #0078ff;
+  --fundo-light: #f3ebf6;
 }
 
 * {
@@ -14,7 +15,7 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-body {
+.App {
   height: 100vh;
   background-color: #141c2f;
   display: flex;
@@ -25,6 +26,10 @@ body {
 
 .container {
   width: 800px;
+}
+
+#dark {
+  background-color: var(--fundo-light);
 }
 
 @media screen and (max-width: 1024px) {
