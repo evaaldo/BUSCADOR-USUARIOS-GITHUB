@@ -40,7 +40,7 @@
 
 .containerTopo__text {
     background-color: transparent;
-    width: 600px;
+    width: 700px;
     border: none;
     color: var(--branco);
 }
@@ -62,4 +62,15 @@
     cursor: pointer;
     display: none;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .containerTopo__text {
+        background-color: transparent;
+        width: 240px;
+        border: none;
+        color: var(--branco);
+    }
+
 }
