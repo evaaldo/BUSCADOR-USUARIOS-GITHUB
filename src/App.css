@@ -85,9 +85,11 @@
 
 #dark .sol {
   color: var(--branco);
+  display: none;
 }
 
 #dark .lua {
+  display: block;
   color: var(--branco);
 }
 
