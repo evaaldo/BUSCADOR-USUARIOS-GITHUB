@@ -91,6 +91,12 @@
   color: var(--branco);
 }
 
+.theme-switch {
+  position: absolute;
+  right: 305px;
+  top: 190px;
+}
+
 @media screen and (max-width: 1024px) {
 
   .container {

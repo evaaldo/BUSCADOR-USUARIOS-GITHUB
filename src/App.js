@@ -18,11 +18,13 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
-        <input type='checkbox' id='change-theme' onChange={toggleTheme} checked={theme === 'light'}></input>
-        <label for='change-theme'>
-          <BsSun className='sol'/>
-          <BsMoon className='lua'/>
-        </label>
+        <div className='theme-switch'>
+          <input type='checkbox' id='change-theme' onChange={toggleTheme} checked={theme === 'light'}></input>
+          <label for='change-theme'>
+            <BsSun className='sol'/>
+            <BsMoon className='lua'/>
+          </label>
+        </div>
         <div>
           <Container></Container>
         </div>      

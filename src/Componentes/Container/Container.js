@@ -11,7 +11,7 @@ function Container() {
     const [search, setSearch] = useState('')
     const [name, setName] = useState('Usuário')
     const [bio, setBio] = useState('Aguardando')
-    const [avatar_url, setAvatar_url] = useState('/images/no-profile.jpg')
+    const [avatar_url, setAvatar_url] = useState('/images/no pf.png')
     const [followers, setFollowers] = useState('...')
     const [following, setFollowing] = useState('...')
     const [location, setLocation] = useState('localização')
