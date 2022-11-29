@@ -99,6 +99,17 @@
   top: 170px;
 }
 
+.label-theme {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-theme p {
+  font-size: .8em;
+}
+
 @media screen and (max-width: 1024px) {
 
   .container {
@@ -106,9 +117,9 @@
   }
 
   .theme-switch {
-    position: absolute;
+    position: fixed;
     right: 20px;
-    top: 130px;
+    top: 20px;
   }
 
 }

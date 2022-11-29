@@ -20,9 +20,9 @@ function App() {
       <div className="App" id={theme}>
         <div className='theme-switch'>
           <input type='checkbox' id='change-theme' onChange={toggleTheme} checked={theme === 'light'}></input>
-          <label for='change-theme'>
-            <BsSun className='sol'/>
-            <BsMoon className='lua'/>
+          <label className='label-theme' for='change-theme'>
+            <p className='sol'>Light theme</p><BsSun className='sol'/>
+            <p className='lua'>Dark theme</p><BsMoon className='lua'/>
           </label>
         </div>
         <div>
