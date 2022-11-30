@@ -9,6 +9,7 @@ import { useState } from 'react'
 function Container() {
 
     const [search, setSearch] = useState('')
+    const [url, setUrl] = useState('')
     const [name, setName] = useState('Usuário')
     const [bio, setBio] = useState('Aguardando')
     const [public_repos, setPublic_repos] = useState('...')
@@ -23,6 +24,7 @@ function Container() {
         axios.get(`https://api.github.com/users/${search}`)
             .then(res => {
                 setName(res.data.name)
+                setUrl(res.data.url)
                 setBio(res.data.bio)
                 setPublic_repos(res.data.public_repos)
                 setAvatar_url(res.data.avatar_url)
@@ -53,7 +55,7 @@ function Container() {
                     </div>
                     <div className='containerBaixo__infos'>
                         <div className='info-1'>
-                            <h2 className='containerBaixo__nome'>{name}</h2>
+                            <a className='containerBaixo__nome-link' href={url}><h2 className='containerBaixo__nome'>{name}</h2></a>
                         </div>
                         <div className='info-2'>
                             <p className='containerBaixo__bio'>{bio}</p>

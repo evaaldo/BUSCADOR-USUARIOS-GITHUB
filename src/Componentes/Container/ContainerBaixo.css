@@ -105,6 +105,20 @@
     text-decoration: underline;
 }
 
+#dark .containerBaixo__nome-link {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+#light .containerBaixo__nome-link {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.containerBaixo__nome-link:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
 
     .containerBaixo {
