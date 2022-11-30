@@ -11,6 +11,7 @@ function Container() {
     const [search, setSearch] = useState('')
     const [name, setName] = useState('Usuário')
     const [bio, setBio] = useState('Aguardando')
+    const [public_repos, setPublic_repos] = useState('...')
     const [avatar_url, setAvatar_url] = useState('/images/no pf.png')
     const [followers, setFollowers] = useState('...')
     const [following, setFollowing] = useState('...')
@@ -23,6 +24,7 @@ function Container() {
             .then(res => {
                 setName(res.data.name)
                 setBio(res.data.bio)
+                setPublic_repos(res.data.public_repos)
                 setAvatar_url(res.data.avatar_url)
                 setFollowers(res.data.followers)
                 setFollowing(res.data.following)
@@ -58,6 +60,10 @@ function Container() {
                         </div>
                         <div className='info-3'>
                             <div className='info'>
+                                <p className='info__name'>Repos</p>
+                                <p className='info__value'>{public_repos}</p>
+                            </div>
+                            <div className='info'>
                                 <p className='info__name'>Followers</p>
                                 <p className='info__value'>{followers}</p>
                             </div>
@@ -73,7 +79,7 @@ function Container() {
                             </div>
                             <div className='link'>
                                 <BsLink size={20}/>
-                                <a href={blog} className='info__value'>{blog}</a>
+                                <a href={blog} className='info__value'>link</a>
                             </div>
                         </div>
                     </div>
