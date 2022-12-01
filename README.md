@@ -1,5 +1,5 @@
 <h1>GitHub User Search</h1>
-<h3>On building - Em construção</h3>
+<h3>Finished - Finalizado</h3>
 
 <p><strong>✦ Summary:</strong> This project consists of creating a website made entirely with ReactJS, consuming the github user search API.
 </p>
