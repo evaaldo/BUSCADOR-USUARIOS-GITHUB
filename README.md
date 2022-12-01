@@ -23,4 +23,4 @@
 ![tela default](https://user-images.githubusercontent.com/110418142/205054936-3be2dd06-bb50-4f69-8064-c09ac5b64a3d.png)
 ![tela usuário](https://user-images.githubusercontent.com/110418142/205054939-e03a3017-753d-4cff-b48f-b6ff73d93335.png)
 ![tela usuário-mobile](https://user-images.githubusercontent.com/110418142/205054941-7484b21d-ca62-43c4-859e-150840fcc254.png)
-
+![tela usuário-mobile-dark](https://user-images.githubusercontent.com/110418142/205055275-1ba8326f-40ce-42bc-bb10-a3bad695c976.png)
