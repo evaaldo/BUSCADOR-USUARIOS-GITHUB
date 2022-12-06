@@ -1,5 +1,5 @@
 <h1>GitHub User Search</h1>
-<h3>On building - Em construção</h3>
+<h3>Finished - Finalizado</h3>
 
 <p><strong>✦ Summary:</strong> This project consists of creating a website made entirely with ReactJS, consuming the github user search API.
 </p>
@@ -20,6 +20,7 @@
 
 <h3>Some project images</h3>
 
-![tela default](https://user-images.githubusercontent.com/110418142/204524443-b7154be2-226e-4fa3-aaeb-7ccf54550682.png)![tela usuário](https://user-images.githubusercontent.com/110418142/204524609-055ce99e-f9a7-4ff9-8fe7-e5f94c167dfb.png)
-![Uploading tela usuário.png…]()
-
+![tela default](https://user-images.githubusercontent.com/110418142/205054936-3be2dd06-bb50-4f69-8064-c09ac5b64a3d.png)
+![tela usuário](https://user-images.githubusercontent.com/110418142/205054939-e03a3017-753d-4cff-b48f-b6ff73d93335.png)
+![tela usuário-mobile](https://user-images.githubusercontent.com/110418142/205054941-7484b21d-ca62-43c4-859e-150840fcc254.png)
+![tela usuário-mobile-dark](https://user-images.githubusercontent.com/110418142/205055275-1ba8326f-40ce-42bc-bb10-a3bad695c976.png)
